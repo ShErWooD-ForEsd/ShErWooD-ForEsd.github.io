@@ -13,6 +13,30 @@
     ============
 */
 
+body {
+    background-color: grey;
+    margin: 2.5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home-container {
+    background-color: whitesmoke;
+    padding: 5%;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
+    font-size: 1.1em;
+    font-variant: small-caps;
+    line-height: 2em;
+    padding: 1%;
+}
+
 /*  ==================
     Navigation Styles:
     ==================

@@ -14,8 +14,8 @@
 */
 
 body {
-    background-color: grey;
-    margin: 2.5%;
+    background-color: lightgray;
+    margin: 1%;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -30,12 +30,18 @@ footer {
     right: 0;
     position: fixed;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: lightgrey;
     font-size: 1.1em;
     font-variant: small-caps;
     line-height: 2em;
     padding: 1%;
 }
+
+.pirata-one-regular {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }  
 
 /*  ==================
     Navigation Styles:

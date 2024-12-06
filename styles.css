@@ -20,26 +20,27 @@ body {
     margin: 1%;
     padding: 1%;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
-.home-container {
-    background-color: whitesmoke;
-    border: 1px solid black;
-    box-shadow: 2px 2px black;
+.container {
+    background-color: black;
+    border: 2px solid darkgray;
+    box-shadow: 3px 3px palevioletred;
     padding: .5%;
+    margin-bottom: 2%;
 }
 
-footer {
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    width: 100%;
-    background-color: lightgrey;
-    font-size: 1.1em;
-    font-variant: small-caps;
-    line-height: 2em;
-    padding: 1%;
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    font-size: 5em;
+    text-align: center;
+    color: palevioletred;
 }
 
 /*  ===============
@@ -47,14 +48,32 @@ footer {
     ===============
 */
 
-.toplogo {
-    width: 100%;
-}
-
 /*  ==================
     Navigation Styles:
     ==================
 */
+
+nav,
+ul,
+li {
+    display: flex;
+    list-style-type: none;
+    width: 95%;
+    margin: auto;
+    padding: 4px;
+    font-size: 1.1em;
+    font-variant: small-caps;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: palevioletred;
+}
 
 /*  =============
     Media Styles:

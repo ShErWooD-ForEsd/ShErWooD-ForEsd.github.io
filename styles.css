@@ -86,13 +86,17 @@ table {
     padding: 5%;
 }
 
-th, tr, td {
-    text-align: center;
+th, tr, td {;
     padding: 1%;
 }
 
 td {
     border: 1px solid palevioletred;
+}
+
+td {
+    background-color: darkgray;
+    color: black;
 }
 
 /*  =============

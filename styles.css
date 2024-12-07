@@ -79,6 +79,10 @@ footer a:hover {
     color: palevioletred;
 }
 
+.buffing {
+    padding: 5%;
+}
+
 /*  ==================
     Navigation Styles:
     ==================
@@ -145,10 +149,10 @@ td:hover {
 
 .profileimg {
     border-radius: 5px;
-    box-shadow: 2px 2px palevioletred;
     float: left;
     margin-left: 2%;
-
+    border-radius: 50%;
+    opacity: 0.5;
 }
 
 /*  ============
@@ -163,15 +167,13 @@ td:hover {
     padding-right: 2%;
 }
 
-.profilecontainer1,
-.profilecontainer2 {
-    padding: 1%;
-    margin: 1%;
+.profilecontainer {
+    padding: 8%;
     color: black;
     background-color: lightgrey;
     border: 2px solid darkgray;
-    border-radius: 5px;
-    box-shadow: 2px 2px palevioletred;
+    border-radius: 10px;
+    box-shadow: 3px 3px palevioletred;
 }
 
 /*  ============
@@ -214,7 +216,17 @@ legend {
 */
 
 @media screen and (max-width: 800px) {
-    .profilecontainer2 {
+    .Sideinfo {
+        width: 95%;
+    }
+
+    .profileimg {
+        float: none;
+        width: 250px;
+        margin: 2%;
+    }
+  
+    .profilecontainer1 {
         width: 100%;
     }
 
@@ -237,14 +249,8 @@ legend {
 
 @media screen and (max-width: 600px) {
 
-    .Sideinfo {
-        width: 95%;
-    }
-
     .profileimg {
-        float: none;
-        width: 250px;
-        margin: 2%;
+        width: 200px;
     }
 
     header {
@@ -261,5 +267,4 @@ legend {
         padding: 2%;
         margin: 2%;
     }
-
 }

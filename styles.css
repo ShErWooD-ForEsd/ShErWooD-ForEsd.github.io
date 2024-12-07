@@ -14,19 +14,19 @@
 */
 
 body {
-    background-image: url("PhotoCollage.jpg");
+    background-image: url("images/PhotoCollageReduced.jpeg");
     background-size: 100%;
     background-color: palevioletred;
     margin: 1%;
     padding: 1%;
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: whitesmoke;
 }
 
 .container {
     background-color: black;
     border: 2px solid darkgray;
-    box-shadow: 3px 3px palevioletred;
+    box-shadow: 3px 3px black;
     padding: .5%;
     margin-bottom: 2%;
 }

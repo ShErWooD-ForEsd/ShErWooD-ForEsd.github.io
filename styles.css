@@ -107,11 +107,6 @@ nav a:hover {
     color: palevioletred;
 }
 
-ul,
-.boxlist {
-    list-style-type: upper-roman;
-}
-
 /*  =============
     Table Styles:
     =============

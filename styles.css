@@ -21,11 +21,13 @@ body {
     padding: 1%;
     font-family: 'Times New Roman', Times, serif;
     color: whitesmoke;
+    text-align: center;
 }
 
 .container {
     background-color: black;
     border: 2px solid darkgray;
+    border-radius: 25px;
     box-shadow: 3px 3px black;
     padding: .5%;
     margin-bottom: 2%;
@@ -39,7 +41,22 @@ body {
 
 header {
     font-size: 5em;
+    color: palevioletred;
+}
+
+h1 {
     text-align: center;
+}
+
+.column {
+    float:left;
+    width: 45%;
+    text-align: center;
+    border: 1px solid palevioletred;
+    margin: 2%;
+}
+
+.return {
     color: palevioletred;
 }
 
@@ -75,28 +92,40 @@ nav a:hover {
     color: palevioletred;
 }
 
+ul, .boxlist {
+    list-style-type: upper-roman;
+}
+
 /*  =============
     Table Styles:
     =============
 */
-
 
 table {
     width: 100%;
     padding: 5%;
 }
 
-th, tr, td {;
-    padding: 1%;
+th {
+    font-size: 1.5em;
 }
 
+th,
+tr,
 td {
-    border: 1px solid palevioletred;
+    border: 1px solid grey;
+    padding: 1.5%;
 }
 
 td {
     background-color: darkgray;
     color: black;
+    border: 1px solid palevioletred;
+}
+
+td:hover {
+    background-color: palevioletred;
+    font-weight: bold;
 }
 
 /*  =============

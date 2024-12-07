@@ -48,6 +48,10 @@ h1 {
     text-align: center;
 }
 
+p {
+    text-align: justify;
+}
+
 .column {
     float: left;
     width: 45%;
@@ -74,11 +78,6 @@ footer a:hover {
     font-weight: bold;
     color: palevioletred;
 }
-
-/*  ===============
-    Imagery Styles:
-    ===============
-*/
 
 /*  ==================
     Navigation Styles:
@@ -144,12 +143,83 @@ td:hover {
     =============
 */
 
+.profileimg {
+    border-radius: 5px;
+    box-shadow: 2px 2px palevioletred;
+    float: left;
+    margin-left: 2%;
+
+}
+
 /*  ============
     Flex Styles:
     ============
 */
 
+.Sideinfo {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+
+.profilecontainer1,
+.profilecontainer2 {
+    padding: 1%;
+    margin: 1%;
+    color: black;
+    background-color: lightgrey;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    box-shadow: 2px 2px palevioletred;
+}
+
 /*  ===================
     Media Query Styles:
     ===================
 */
+
+@media screen and (max-width: 800px) {
+    .profilecontainer2 {
+        width: 100%;
+    }
+
+    .column {
+        width: 95%;
+    }
+
+    th {
+        font-size: 1em;
+    }
+
+    td {
+        font-size: .8em;
+    }
+
+    header {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .Sideinfo {
+        width: 95%;
+    }
+
+    .profileimg {
+        float: none;
+        width: 250px;
+        margin: 2%;
+    }
+
+    header {
+        font-size: 3em;
+    }
+
+    nav,
+    ul,
+    li {
+        font-size: 1em;
+    }
+}

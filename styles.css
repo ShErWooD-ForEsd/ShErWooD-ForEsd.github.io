@@ -76,6 +76,26 @@ nav a:hover {
 }
 
 /*  =============
+    Table Styles:
+    =============
+*/
+
+
+table {
+    width: 100%;
+    padding: 5%;
+}
+
+th, tr, td {
+    text-align: center;
+    padding: 1%;
+}
+
+td {
+    border: 1px solid palevioletred;
+}
+
+/*  =============
     Media Styles:
     =============
 */

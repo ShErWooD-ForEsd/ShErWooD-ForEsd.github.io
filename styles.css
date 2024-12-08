@@ -108,8 +108,8 @@ dl, dt, dd {
 
 dt {
     font-weight: bolder;
-    text-decoration: underline;
-    font-size: 1.3em;
+
+    font-size: 1.2em;
 }
 /*  ==================
     Navigation Styles:

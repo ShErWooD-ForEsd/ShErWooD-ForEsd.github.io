@@ -33,6 +33,15 @@ body {
     margin-bottom: 2%;
 }
 
+.hobbycontainer {
+    background-color: black;
+    border: 2px solid darkgray;
+    border-radius: 25px;
+    box-shadow: 3px 3px black;
+    padding: 2%;
+    margin: 5%;
+}
+
 .cedarville-cursive-regular {
     font-family: "Cedarville Cursive", cursive;
     font-weight: 400;
@@ -83,6 +92,17 @@ footer a:hover {
     padding: 5%;
 }
 
+dl, dt, dd {
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+dt {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 1.3em;
+}
 /*  ==================
     Navigation Styles:
     ==================
@@ -155,6 +175,18 @@ td:hover {
     opacity: 0.5;
 }
 
+.Volunteerphotos1 {
+    width: 400px;
+    height: 300px;
+    padding: 1%;
+}
+
+.Volunteerphotos2 {
+    width: 300px;
+    height: 400px;
+    padding: 1%;
+}
+
 /*  ============
     Flex Styles:
     ============
@@ -196,7 +228,6 @@ input {
     width: 95%;
     margin-top: 1%;
     padding: 1%;
-    font-style: italic;
 }
 
 .submit {
@@ -225,7 +256,7 @@ legend {
         width: 250px;
         margin: 2%;
     }
-  
+
     .profilecontainer1 {
         width: 100%;
     }
@@ -262,7 +293,7 @@ legend {
     li {
         font-size: 1em;
     }
-    
+
     label {
         padding: 2%;
         margin: 2%;

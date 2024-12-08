@@ -42,6 +42,14 @@ body {
     margin: 5%;
 }
 
+.jobcontainer {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+    color: black;
+}
+
 .cedarville-cursive-regular {
     font-family: "Cedarville Cursive", cursive;
     font-weight: 400;

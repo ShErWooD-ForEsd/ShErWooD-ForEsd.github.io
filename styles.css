@@ -48,6 +48,7 @@ body {
     padding: 1%;
     margin: 1%;
     color: black;
+    border-left: 6px dotted black;
 }
 
 .cedarville-cursive-regular {
@@ -65,6 +66,11 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: "Cedarville Cursive";
+    font-size: 2em;
+}
+
 p {
     text-align: justify;
 }
@@ -73,7 +79,7 @@ p {
     float: left;
     width: 45%;
     text-align: center;
-    border: 1px solid palevioletred;
+    border-top: 1px solid palevioletred;
     margin: 2%;
 }
 
@@ -100,7 +106,9 @@ footer a:hover {
     padding: 5%;
 }
 
-dl, dt, dd {
+dl,
+dt,
+dd {
     text-align: left;
     padding-left: 3%;
     padding-right: 3%;
@@ -111,6 +119,7 @@ dt {
 
     font-size: 1.2em;
 }
+
 /*  ==================
     Navigation Styles:
     ==================
@@ -186,13 +195,19 @@ td:hover {
 .Volunteerphotos1 {
     width: 400px;
     height: 300px;
-    padding: 1%;
+    padding: .5%;
+    margin: 1%;
+    border: .5px solid palevioletred;
+    border-left: 6px groove palevioletred;
 }
 
 .Volunteerphotos2 {
     width: 300px;
     height: 400px;
     padding: 1%;
+    border: .5px solid palevioletred;
+    border-left: 6px groove palevioletred;
+    margin: 1%;
 }
 
 /*  ============
@@ -254,6 +269,13 @@ legend {
     ===================
 */
 
+@media screen and (max-width: 1080px) {
+    .Volunteerphotos1 {
+        width: 300px;
+        height: 225px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .Sideinfo {
         width: 95%;
@@ -284,6 +306,11 @@ legend {
     header {
         font-size: 4em;
     }
+
+    .Volunteerphotos1 {
+        width: 360px;
+        height: 270px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -305,5 +332,9 @@ legend {
     label {
         padding: 2%;
         margin: 2%;
+    }
+
+    table {
+        display: none;
     }
 }
